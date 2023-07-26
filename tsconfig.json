@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6"
+    ],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "target": "es6",
+    "module": "commonjs",
+    "isolatedModules": false,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmitOnError": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
