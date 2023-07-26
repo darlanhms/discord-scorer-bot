@@ -5,7 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "dev": "ts-node-dev -r dotenv/config --respawn --transpile-only --ignore-watch node_modules --no-notify src/bot.ts",
-    "start": "node -r dotenv/config dist/server.js",
+    "start": "node -r dotenv/config dist/bot.js",
     "build": "tsc",
     "lint": "eslint src --fix --ext ts,tsx"
   },
